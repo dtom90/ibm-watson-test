@@ -1,7 +1,7 @@
 const AssistantV1 = require('ibm-watson/assistant/v1')
 
 const assistant = new AssistantV1({
-  serviceName: 'assistant', // THIS IS REQUIRED TO WORK
+  // serviceName: 'assistant', // THIS IS REQUIRED TO WORK
   version: '2020-04-01'
 });
 
